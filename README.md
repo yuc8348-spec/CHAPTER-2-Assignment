@@ -41,9 +41,9 @@ I choose supervised learning because past sales provide known results. The model
 Classification or prediction: Prediction
 I choose prediction because the output is a number. The model estimates tomorrow’s milk demand. For example, it may predict 80 cartons. A regression model can predict this amount.
 Part 5 — Data Quality and Business Impact
-5Three possible data-quality problems
+Three possible data-quality problems
 Missing sales: Some purchases are not recorded.
 Duplicate records: The same purchase is recorded twice.
 Incorrect inventory: Records show milk is available when it has sold out.
-6. What could happen if the data is poor? Poor data can cause wrong forecasts. Missing sales may lead the manager to order too little milk. Duplicate sales may lead the manager to order too much milk. These mistakes can cause shortages, waste, and lost profit. 
+What could happen if the data is poor? Poor data can cause wrong forecasts. Missing sales may lead the manager to order too little milk. Duplicate sales may lead the manager to order too much milk. These mistakes can cause shortages, waste, and lost profit. 
 Part 6 — AI Solution Summary Business Problem Predict daily milk demand. Data Needed Sales, prices, discounts, inventory, stockout dates, and calendar data. AI/ML Approach Regression to predict a quantity. Type of Learning Supervised learning. Model Output Expected milk cartons purchased tomorrow, assuming enough stock. Business Benefit Less waste, fewer shortages, and happier customers. Potential Risk Wrong forecasts may cause poor orders. Managers should also check stock, expiration dates, and delivery times.
